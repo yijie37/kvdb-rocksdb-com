@@ -23,7 +23,7 @@ extern crate interleaved_ordered;
 extern crate num_cpus;
 extern crate parking_lot;
 extern crate regex;
-extern crate parity_rocksdb;
+extern crate parity_rocksdb1 as parity_rocksdb;
 
 #[cfg(test)]
 extern crate ethereum_types;
