@@ -16,7 +16,8 @@ version = "0.1.5"
 authors = ["Parity Technologies <admin@parity.io>"]
 description = "kvdb implementation backed by rocksDB"
 license = "GPL-3.0"
-repository = "https://github.com/paritytech/parity-common"
+# repository = "https://github.com/paritytech/parity-common"
+repository = "https://github.com/yijie37/kvdb-rocksdb-com"
 [dependencies.elastic-array]
 version = "0.10"
 
@@ -35,8 +36,9 @@ version = "0.3"
 [dependencies.num_cpus]
 version = "1.0"
 
-[dependencies.parity-rocksdb]
+[dependencies.parity-rocksdb1]
 version = "0.5.1"
+git = "https://github.com/yijie37/parity-rocksdb-com.git"
 
 [dependencies.parking_lot]
 version = "0.6"
