@@ -12,7 +12,7 @@
 
 [package]
 name = "kvdb-rocksdb1"
-version = "0.1.4"
+version = "0.1.5"
 authors = ["Parity Technologies <admin@parity.io>"]
 description = "kvdb implementation backed by rocksDB"
 license = "GPL-3.0"
