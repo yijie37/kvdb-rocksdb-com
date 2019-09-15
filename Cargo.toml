@@ -37,8 +37,8 @@ version = "0.3"
 version = "1.0"
 
 [dependencies.parity-rocksdb1]
-version = "0.5.1"
 git = "https://github.com/yijie37/parity-rocksdb-com.git"
+rev = "98d402cd6524a32c06979bed00a833924927ce45"
 
 [dependencies.parking_lot]
 version = "0.6"
